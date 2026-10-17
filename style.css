@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background: linear-gradient(black, darkblue);
+    color: white;
+    
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-style: bold;
+    font-size: xx-large;
+}
+.para1{
+    margin: 20px;
+
+}
+
+.para2{
+    margin: 20px;
+}
+.para3{
+    margin: 20px;
+}
