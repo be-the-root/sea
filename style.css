@@ -9,7 +9,8 @@ body{
     justify-items: center;
     background: linear-gradient(black, darkblue);
     color: white;
-    
+
+
 }
 .head{
     text-align: center;
@@ -17,15 +18,44 @@ body{
     letter-spacing: 30px;
     font-style: bold;
     font-size: xx-large;
+    animation: glow 4s ease-in-out infinite;
+
+}
+@keyframes glow {
+    0% ,100% {
+        text-shadow: 0 0 10 rgba(127, 196, 220, 0.3);
+    }
+    50% { text-shadow: 0 0 30px rgba(127, 196, 220, 0.9); }
+
 }
 .para1{
     margin: 20px;
+    padding: 30px;
+    background: linear-gradient(black , rgb(2, 2, 41) , black);
+    border-radius: 17px;
+    box-sizing: border-box;
 
 }
 
 .para2{
     margin: 20px;
+
+    padding: 30px;
+    background: linear-gradient(black , rgb(2, 2, 41) , black);
+    border-radius: 17px;
+    box-sizing: border-box;
 }
 .para3{
     margin: 20px;
+    padding: 30px;
+    background: linear-gradient(black , rgb(2, 2, 41), black);
+    box-sizing: border-box;
+}
+.para4{
+    margin: 20px;
+    padding: 30px;
+    background: linear-gradient(black , rgb(2 ,2 , 42), black);
+    box-sizing: border-box;
+    
+
 }
