@@ -7,7 +7,7 @@ body{
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    background: linear-gradient(black, darkblue);
+    background: linear-gradient(rgb(0, 140, 255), rgb(21, 21, 160), rgb(0, 0, 0));
     color: white;
 
 
@@ -31,7 +31,7 @@ body{
 .para1{
     margin: 20px;
     padding: 30px;
-    background: linear-gradient(black , rgb(2, 2, 41) , black);
+    background: linear-gradient(rgb(1, 98, 110) , rgb(2, 2, 41) , black);
     border-radius: 17px;
     box-sizing: border-box;
 
@@ -41,21 +41,52 @@ body{
     margin: 20px;
 
     padding: 30px;
-    background: linear-gradient(black , rgb(2, 2, 41) , black);
+    background: linear-gradient(rgb(1, 98, 110) , rgb(2, 2, 41) , black);
     border-radius: 17px;
     box-sizing: border-box;
 }
 .para3{
     margin: 20px;
     padding: 30px;
-    background: linear-gradient(black , rgb(2, 2, 41), black);
+    background: linear-gradient(rgb(1, 98, 110), rgb(2, 2, 41), black);
     box-sizing: border-box;
+    border-radius: 17px;
 }
 .para4{
     margin: 20px;
     padding: 30px;
-    background: linear-gradient(black , rgb(2 ,2 , 42), black);
+    background: linear-gradient(rgb(1, 98, 110), rgb(2 ,2 , 42), black);
     box-sizing: border-box;
-    
+    border-radius: 17px;
 
+
+}
+.para1, .para2, .para3, .para4{
+    animation: float 6s ease-in-out infinite, rise 1s ease-out both;
+
+    
+}
+@keyframes float {
+
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+}
+.para1 {animation-delay: 0s;}
+.para2{animation-delay: 0.6s;}
+.para3{animation-delay: 1.2s;}
+.para4{animation-delay: 0.4;}
+
+@keyframes rise{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
 }
