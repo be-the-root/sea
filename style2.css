@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.head{
+    color: white;
+    letter-spacing: 3px;
+    font-size: smaller;
+    margin: 20px;
+
+}
+.line{
+    width: 100%;
+    color: white;
+}
+p1{
+    color: white;
+    margin: 20px;
+    letter-spacing: 4px;
+    line-height: 20px;
+    
+}
